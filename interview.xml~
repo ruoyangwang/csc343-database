@@ -20,15 +20,9 @@
 		</assessment>
 	</interview>
 
-	<interviewer sID="s15">
-		<forename>Leo</forename>
-		<surname>Wang</surname>
-		<honorific>Mr</honorific>
-	</interviewer>
-
 
 	<interview rID="r1001" pID="p201" sID="s16">
-		<date>Nov10 2014</date>
+		<date>Nov11 2014</date>
 	
 		<time>1310</time>
 	
@@ -46,6 +40,13 @@
 			<enthusiasm>bad</enthusiasm>
 		</assessment>
 	</interview>
+
+
+	<interviewer sID="s15">
+		<forename>Leo</forename>
+		<surname>Wang</surname>
+		<honorific>Mr</honorific>
+	</interviewer>
 
 	<interviewer sID="s16">
 		<forename>Lolo</forename>
