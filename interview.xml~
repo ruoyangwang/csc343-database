@@ -17,14 +17,10 @@
 			<techProficiency>good</techProficiency>
 			<communication>bad</communication>
 			<enthusiasm>perfect</enthusiasm>
+			<collegiality>good</collegiality>
 		</assessment>
+		
 	</interview>
-
-	<interviewer sID="s15">
-		<forename>Leo</forename>
-		<surname>Wang</surname>
-		<honorific>Mr</honorific>
-	</interviewer>
 
 
 	<interview rID="r1001" pID="p201" sID="s16">
@@ -46,6 +42,35 @@
 			<enthusiasm>bad</enthusiasm>
 		</assessment>
 	</interview>
+
+
+	<interview rID="r1002" pID="p200" sID="s15">
+		<date>Nov11 2014</date>
+	
+		<time>1310</time>
+	
+		<location>BA</location>
+	
+		<assessment>
+			<answers>
+				<answer qID="1">100</answer>
+				<answer qID="2">100</answer>
+			
+			</answers>
+			<techProficiency>good</techProficiency>
+			<communication>good</communication>
+			<enthusiasm>good</enthusiasm>
+			<collegiality>good</collegiality>
+		</assessment>
+		
+	</interview>
+
+
+	<interviewer sID="s15">
+		<forename>Leo</forename>
+		<surname>Wang</surname>
+		<honorific>Mr</honorific>
+	</interviewer>
 
 	<interviewer sID="s16">
 		<forename>Lolo</forename>
