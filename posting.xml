@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE postings SYSTEM "posting.dtd">
+<postings>
+<posting pID="200">
+	<position>Software Engineer</position>
+	
+	<reqSkill what="C" level="4" importance="3"/>
+	
+	<reqSkill what="Java" level="5" importance="5"/>
+	
+	<questions>
+		<question qID="1">what's your salary expectation</question>
+		<question qID="2">How familiar are you with C</question>
+		<question qID="3">Expected starting date</question>
+	</questions>
+</posting>
+
+<posting pID="201">
+	<position>Full Stack developer</position>
+	
+	<reqSkill what="Java" level="3" importance="3"/>
+	<reqSkill what="SQL" level="5" importance="4"/>
+	<reqSkill what="Prolog" level="1" importance="1"/>
+	<reqSkill what="Python" level="5" importance="4"/>
+
+	
+	<questions>
+		<question qID="4">Most challenging work</question>
+		<question qID="5">Tell me about debugging experience</question>
+		<question qID="6">What do you know about OOP</question>
+	</questions>
+</posting>
+
+</postings>
+
