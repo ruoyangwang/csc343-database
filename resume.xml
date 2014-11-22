@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE resumes SYSTEM "resume.dtd">
+<resumes>
+<resume rID="1000">
+	<summary>new grad, nice guy</summary>
+	<identification>
+		<name>
+			<honorific>Mr</honorific>
+			<forename>Leo</forename>
+			<surname>Wang</surname>
+		</name>
+		<sex>male</sex>
+		<DOB>19891230</DOB>
+		<email>leowry123@hotmail.com</email>
+		<citizenship>Chinese</citizenship>
+		<address>525 dundas</address>
+		<telephone>888-999-7777</telephone>
+		
+	</identification>
+	<skills>
+		<skill what="SQL" level="3"/>
+		<skill what="C" level="5"/>
+		<skill what="Python" level="4"/>
+		<skill what="XQuery" level="2"/>
+	</skills>
+</resume>
+
+
+
+<resume rID="1001">
+	<summary>Experience programmer</summary>
+	<identification>
+		<name>
+			<honorific>Mr</honorific>
+			<forename>Lolo</forename>
+			<surname>Zen</surname>
+		</name>
+		<sex>male</sex>
+		<DOB>19880130</DOB>
+		<email>lolozen@hotmail.com</email>
+		<citizenship>Chinese</citizenship>
+		<address>555 richmond</address>
+		<telephone>888-666-7777</telephone>
+		
+	</identification>
+	
+	<education>
+		<degree>
+			<degreeName>Bachelor</degreeName>
+			<institution>UofT</institution>
+			<major>engineering</major>
+			<honours/>
+			<period>2008-2012</period>
+		</degree>
+	</education>
+
+	<skills>
+		<skill what="SQL" level="4"/>
+		<skill what="C" level="5"/>
+		<skill what="Python" level="1"/>
+		<skill what="XQuery" level="3"/>
+		<skill what="Haskell" level="3"/>
+	</skills>
+</resume>
+
+</resumes>
