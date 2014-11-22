@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE interviews SYSTEM "interview.dtd">
 <interviews>
-	<interview rID="1000" pID="200" sID="15">
+	<interview rID="r1000" pID="p200" sID="s15">
 		<date>Nov10 2014</date>
 	
 		<time>1310</time>
@@ -20,14 +20,8 @@
 		</assessment>
 	</interview>
 
-	<interviewer sID="15">
-		<forename>Leo</forename>
-		<surename>Wang</surename>
-		<honorific>Mr</honorific>
-	</interviewer>
 
-
-	<interview rID="1001" pID="201" sID="16">
+	<interview rID="r1001" pID="p201" sID="s16">
 		<date>Nov10 2014</date>
 	
 		<time>1310</time>
@@ -47,9 +41,16 @@
 		</assessment>
 	</interview>
 
-	<interviewer sID="16">
+
+	<interviewer sID="s15">
+		<forename>Leo</forename>
+		<surname>Wang</surname>
+		<honorific>Mr</honorific>
+	</interviewer>
+
+	<interviewer sID="s16">
 		<forename>Lolo</forename>
-		<surename>Zen</surename>
+		<surname>Zen</surname>
 		<honorific>Mr</honorific>
 		<honorific>Dr</honorific>
 	</interviewer>

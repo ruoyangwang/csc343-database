@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE postings SYSTEM "posting.dtd">
 <postings>
-<posting pID="200">
+<posting pID="p200">
 	<position>Software Engineer</position>
 	
 	<reqSkill what="C" level="4" importance="3"/>
@@ -15,7 +15,7 @@
 	</questions>
 </posting>
 
-<posting pID="201">
+<posting pID="p201">
 	<position>Full Stack developer</position>
 	
 	<reqSkill what="Java" level="3" importance="3"/>

@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
-<resume rID="1000">
+<resume rID="r1000" >
 	<summary>new grad, nice guy</summary>
 	<identification>
 		<name>
-			<honorific>Mr</honorific>
+			
 			<forename>Leo</forename>
 			<surname>Wang</surname>
+			<honorific>Mr</honorific>
 		</name>
 		<sex>male</sex>
 		<DOB>19891230</DOB>
-		<email>leowry123@hotmail.com</email>
 		<citizenship>Chinese</citizenship>
 		<address>525 dundas</address>
 		<telephone>888-999-7777</telephone>
-		
+		<email>leowry123@hotmail.com</email>
+
 	</identification>
 	<skills>
 		<skill what="SQL" level="3"/>
@@ -27,30 +28,33 @@
 
 
 
-<resume rID="1001">
+<resume rID="r1001">
 	<summary>Experience programmer</summary>
 	<identification>
 		<name>
-			<honorific>Mr</honorific>
+			
 			<forename>Lolo</forename>
 			<surname>Zen</surname>
+			<honorific>Mr</honorific>
 		</name>
 		<sex>male</sex>
 		<DOB>19880130</DOB>
-		<email>lolozen@hotmail.com</email>
-		<citizenship>Chinese</citizenship>
+		<citizenship>Chinese</citizenship>	
 		<address>555 richmond</address>
 		<telephone>888-666-7777</telephone>
-		
+		<email>lolozen@hotmail.com</email>
 	</identification>
 	
 	<education>
-		<degree>
+		<degree level="professional">
 			<degreeName>PHD</degreeName>
 			<institution>UofT</institution>
 			<major>engineering</major>
 			<honours/>
-			<period>2008-2012</period>
+			<period>
+				<startDate>2008/12/31</startDate>
+				<endDate>2012/12/31</endDate>
+			</period>
 		</degree>
 	</education>
 
@@ -63,30 +67,34 @@
 	</skills>
 </resume>
 
-<resume rID="1002">
+<resume rID="r1002">
 	<summary>Beginner</summary>
 	<identification>
 		<name>
-			<honorific>Ms</honorific>
+			
 			<forename>Kidy</forename>
 			<surname>Fu</surname>
+			<honorific>Ms</honorific>
 		</name>
 		<sex>female</sex>
 		<DOB>19931120</DOB>
-		<email>kidyfu@hotmail.com</email>
 		<citizenship>Chinese</citizenship>
 		<address>777 college st</address>
 		<telephone>444-666-7777</telephone>
+		<email>kidyfu@hotmail.com</email>
 		
 	</identification>
 	
 	<education>
-		<degree>
+		<degree level="undergraduate">
 			<degreeName>Bachelor</degreeName>
 			<institution>UofT</institution>
 			<major>CS</major>
 			<honours/>
-			<period>2010-2014</period>
+			<period>
+				<startDate>2010/12/31</startDate>
+				<endDate>2014/12/31</endDate>
+			</period>
 		</degree>
 	</education>
 
