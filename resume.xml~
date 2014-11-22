@@ -63,4 +63,37 @@
 	</skills>
 </resume>
 
+<resume rID="1002">
+	<summary>Beginner</summary>
+	<identification>
+		<name>
+			<honorific>Ms</honorific>
+			<forename>Kidy</forename>
+			<surname>Fu</surname>
+		</name>
+		<sex>female</sex>
+		<DOB>19931120</DOB>
+		<email>kidyfu@hotmail.com</email>
+		<citizenship>Chinese</citizenship>
+		<address>777 college st</address>
+		<telephone>444-666-7777</telephone>
+		
+	</identification>
+	
+	<education>
+		<degree>
+			<degreeName>Bachelor</degreeName>
+			<institution>UofT</institution>
+			<major>CS</major>
+			<honours/>
+			<period>2010-2014</period>
+		</degree>
+	</education>
+
+	<skills>
+		<skill what="SQL" level="4"/>
+		
+	</skills>
+</resume>
+
 </resumes>

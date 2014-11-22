@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE interviews SYSTEM "interview.dtd">
+<interviews>
+	<interview rID="1000" pID="200" sID="15">
+		<date>Nov10 2014</date>
+	
+		<time>1310</time>
+	
+		<location>BA</location>
+	
+		<assessment>
+			<answers>
+				<answer qID="1">80</answer>
+				<answer qID="2">50</answer>
+			
+			</answers>
+			<techProficiency>good</techProficiency>
+			<communication>bad</communication>
+			<enthusiasm>perfect</enthusiasm>
+		</assessment>
+	</interview>
+
+	<interviewer sID="15">
+		<forename>Leo</forename>
+		<surename>Wang</surename>
+		<honorific>Mr</honorific>
+	</interviewer>
+
+
+	<interview rID="1001" pID="201" sID="16">
+		<date>Nov10 2014</date>
+	
+		<time>1310</time>
+	
+		<location>BA</location>
+	
+		<assessment>
+			<answers>
+				<answer qID="1">80</answer>
+				<answer qID="2">90</answer>
+				<answer qID="3">50</answer>
+			
+			</answers>
+			<techProficiency>good</techProficiency>
+			<communication>good</communication>
+			<enthusiasm>bad</enthusiasm>
+		</assessment>
+	</interview>
+
+	<interviewer sID="16">
+		<forename>Lolo</forename>
+		<surename>Zen</surename>
+		<honorific>Mr</honorific>
+		<honorific>Dr</honorific>
+	</interviewer>
+
+</interviews>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT interviews (interview+, interviewer+)>
+<!ELEMENT interview (date,time,location,assessment)>
+<!-- References to the resume of the interviewee and the posting ID. -->
+<!ATTLIST interview rID CDATA #REQUIRED 
+                    pID CDATA #REQUIRED
+                    sID IDREF #REQUIRED>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!-- All assessment scores must consist of numeric scores from 0 to 100 -->
+<!ELEMENT assessment (answers?, techProficiency, communication, enthusiasm, collegiality?)>
+<!ELEMENT answers (answer+)>
+<!ELEMENT answer (#PCDATA)>
+<!-- Refers to a posting's question ID -->
+<!ATTLIST answer qID CDATA #REQUIRED>
+<!ELEMENT techProficiency (#PCDATA)>
+<!ELEMENT communication (#PCDATA)>
+<!ELEMENT enthusiasm (#PCDATA)>
+<!ELEMENT collegiality (#PCDATA)>
+<!ELEMENT interviewer (forename,surname,honorific+,title*)>
+<!ATTLIST interviewer sID ID #REQUIRED>
+<!ELEMENT forename (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT honorific (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
