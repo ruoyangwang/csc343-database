@@ -6,4 +6,9 @@ return <interviewer>{data($interview/@sID)}</interviewer>
 
 let $unique := distinct-values(data($input))
 
-return string($unique)
+
+let $unique_sID :=
+for $sID in $unique
+return <sID>{string($sID)}</sID>
+
+return $unique_sID
