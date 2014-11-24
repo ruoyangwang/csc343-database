@@ -22,7 +22,8 @@
 		<skill what="SQL" level="3"/>
 		<skill what="C" level="5"/>
 		<skill what="Python" level="4"/>
-		<skill what="XQuery" level="2"/>
+		<skill what="XQuery" level="1"/>
+		<skill what="Java" level="3"/>
 	</skills>
 </resume>
 
@@ -61,7 +62,7 @@
 	<skills>
 		<skill what="SQL" level="4"/>
 		<skill what="C" level="5"/>
-		<skill what="Python" level="1"/>
+		<skill what="Python" level="2"/>
 		<skill what="XQuery" level="3"/>
 		<skill what="Haskell" level="3"/>
 	</skills>
@@ -100,8 +101,44 @@
 
 	<skills>
 		<skill what="SQL" level="4"/>
-		
+		<skill what="Python" level="4"/>
 	</skills>
 </resume>
 
+<resume rID="r1003">
+	<summary>Beginner</summary>
+	<identification>
+		<name>
+			
+			<forename>JJ</forename>
+			<surname>Zu</surname>
+			<honorific>Ms</honorific>
+		</name>
+		<sex>female</sex>
+		<DOB>19941120</DOB>
+		<citizenship>Chinese</citizenship>
+		<address>random st</address>
+		<telephone>444-555-7777</telephone>
+		<email>jjzu@hotmail.com</email>
+		
+	</identification>
+	
+	<education>
+		<degree level="undergraduate">
+			<degreeName>Bachelor</degreeName>
+			<institution>mcmaster</institution>
+			<major>CS</major>
+			<honours/>
+			<period>
+				<startDate>2010/12/31</startDate>
+				<endDate>2014/12/31</endDate>
+			</period>
+		</degree>
+	</education>
+
+	<skills>
+		<skill what="SQL" level="3"/>
+		<skill what="Python" level="4"/>
+	</skills>
+</resume>
 </resumes>
