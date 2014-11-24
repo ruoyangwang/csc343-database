@@ -5,7 +5,8 @@ for $someone in fn:doc("resume.xml")//resume
 		(
 			count($x//@what)=count($y//@what) 
 			and
-			(every $a in $x//skill, $b in $y  satisfies($a//@what= $b//@what and $a//@level= $b//@level))
+			(every $a in $x//skill satisfies($a[some $b in $y//skill satisfies (./@what=$b//@what and ./@level=$b//@level)])
+				)
 		)
 	and $resume//@rID<$someone//@rID
 
