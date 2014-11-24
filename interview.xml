@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE interviews SYSTEM "interview.dtd">
+<interviews>
+	<interview rID="r1000" pID="p200" sID="s15">
+		<date>Nov10 2014</date>
+	
+		<time>1310</time>
+	
+		<location>BA</location>
+	
+		<assessment>
+			<answers>
+				<answer qID="1">80</answer>
+				<answer qID="2">50</answer>
+			
+			</answers>
+			<techProficiency>good</techProficiency>
+			<communication>bad</communication>
+			<enthusiasm>perfect</enthusiasm>
+		</assessment>
+	</interview>
+
+
+
+	<interview rID="r1001" pID="p201" sID="s16">
+		<date>Nov10 2014</date>
+	
+		<time>1310</time>
+	
+		<location>BA</location>
+	
+		<assessment>
+			<answers>
+				<answer qID="1">80</answer>
+				<answer qID="2">90</answer>
+				<answer qID="3">50</answer>
+			
+			</answers>
+			<techProficiency>good</techProficiency>
+			<communication>good</communication>
+			<enthusiasm>bad</enthusiasm>
+		</assessment>
+	</interview>
+
+
+	<interviewer sID="s15">
+		<forename>Leo</forename>
+		<surname>Wang</surname>
+		<honorific>Mr</honorific>
+	</interviewer>
+
+
+	<interviewer sID="s16">
+		<forename>Lolo</forename>
+		<surname>Zen</surname>
+		<honorific>Mr</honorific>
+		<honorific>Dr</honorific>
+	</interviewer>
+
+</interviews>
+
+
+
