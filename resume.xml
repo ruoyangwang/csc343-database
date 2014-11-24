@@ -62,7 +62,7 @@
 	<skills>
 		<skill what="SQL" level="4"/>
 		<skill what="C" level="5"/>
-		<skill what="Python" level="2"/>
+		<skill what="Python" level="5"/>
 		<skill what="XQuery" level="3"/>
 		<skill what="Haskell" level="3"/>
 	</skills>
@@ -137,7 +137,7 @@
 	</education>
 
 	<skills>
-		<skill what="SQL" level="3"/>
+		<skill what="SQL" level="4"/>
 		<skill what="Python" level="4"/>
 	</skills>
 </resume>

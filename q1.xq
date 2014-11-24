@@ -8,4 +8,5 @@ return
 	<result>
 		<rID>{data($resume//@rID)}</rID>
 		<forename>{data($resume//forename)}</forename>
+		<skillcount>{data(count($resume//skill))}</skillcount>
 	</result>

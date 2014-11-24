@@ -4,9 +4,9 @@
 <posting pID="p200">
 	<position>Software Engineer</position>
 	
-	<reqSkill what="C" level="4" importance="3"/>
+	<reqSkill what="C" level="2" importance="3"/>
 	
-	<reqSkill what="Java" level="5" importance="5"/>
+	<reqSkill what="Java" level="2" importance="5"/>
 	
 	<questions>
 		<question qID="1">what's your salary expectation</question>
@@ -18,7 +18,7 @@
 <posting pID="p201">
 	<position>Full Stack developer</position>
 	
-	<reqSkill what="Java" level="3" importance="3"/>
+	<reqSkill what="Java" level="5" importance="3"/>
 	<reqSkill what="SQL" level="5" importance="4"/>
 	<reqSkill what="Prolog" level="1" importance="1"/>
 	<reqSkill what="Python" level="5" importance="4"/>
@@ -30,6 +30,7 @@
 		<question qID="6">What do you know about OOP</question>
 	</questions>
 </posting>
+
 
 
 

@@ -6,6 +6,6 @@ for $resume in $doc
 where count($resume//skill)>3
 return 
 	<result>
-		<rID>{data($doc//@rID)}</rID>
-		<forename>{data($doc//forename)}</forename>
+		<rID>{data($resume//@rID)}</rID>
+		<forename>{data($resume//forename)}</forename>
 	</result>

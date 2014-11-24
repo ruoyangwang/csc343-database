@@ -4,7 +4,7 @@
 <posting pID="p200">
 	<position>Software Engineer</position>
 	
-	<reqSkill what="C" level="4" importance="3"/>
+	<reqSkill what="C" level="2" importance="3"/>
 	
 	<reqSkill what="Java" level="5" importance="5"/>
 	
@@ -18,7 +18,7 @@
 <posting pID="p201">
 	<position>Full Stack developer</position>
 	
-	<reqSkill what="Java" level="3" importance="3"/>
+	<reqSkill what="Java" level="5" importance="3"/>
 	<reqSkill what="SQL" level="5" importance="4"/>
 	<reqSkill what="Prolog" level="1" importance="1"/>
 	<reqSkill what="Python" level="5" importance="4"/>
@@ -32,18 +32,8 @@
 </posting>
 
 
-<posting pID="p203">
-	<position>Full Stack developer</position>
-	
-	<reqSkill what="Java" level="3" importance="1"/>
 
-	
-	<questions>
-		<question qID="4">Most challenging work</question>
-		<question qID="5">Tell me about debugging experience</question>
-		<question qID="6">What do you know about OOP</question>
-	</questions>
-</posting>
+
 
 </postings>
 
