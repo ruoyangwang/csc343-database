@@ -1,5 +1,9 @@
+let $resume :=doc("resume.xml")
+let $pid:=
 for $posting in fn:doc("posting.xml")//posting
-    let $resume :=doc("resume.xml")
-    where every $x in $resume satisfies ($x//@level<$posting//reqSkill/@level and $posting//reqSkill/@what=$x//@what)
+    for $x in $posting//reqSkill
+    where (not ($x[some $b in $resume//skill satisfies (.//@level<$b//@level and .//@what=$b//@what)]))
 return
-<result>{data($posting//@pID)}</result>
+<result>{data($posting/@pID)}</result>
+
+return <pid>{distinct-values($pid)}</pid>
